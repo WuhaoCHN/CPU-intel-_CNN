@@ -8,7 +8,7 @@ This code is used to implement the 2D convolution, relu, max-pooling operation i
 3. Use OpenMP to compute in parallel on the CPU.
 
 ## Instructions
-1. `Intel_test_wuhao.exe` is a compiled file, which can be used directly on the windows platform.
+1. `Intel_test_wuhao.exe` is a compiled file on the windows platform.
 2. `Intel_test_wuhao.cpp` is the source code.
 3. `Report_WuHao.docx` contains some summary and screenshots of experimental results.
 4. The way to input data can refer to `example.png`
