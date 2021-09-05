@@ -12,6 +12,7 @@ This code is used to implement the 2D convolution, relu, max-pooling operation i
 2. `Intel_test_wuhao.cpp` is the source code.
 3. `Report_WuHao.docx` contains some summary and screenshots of experimental results.
 4. The way to input data can refer to `example.png`
+5. `intel_test_wuhao_manual.cpp` and `intel_test_wuhao_manual.exe`are Used to manually input the convolution kernel and input matrix.
 
 ## Notice
 For experiments on time complexity, high-dimensional matrices are required as input to reflect the advantages of parallel computing. The current code displays the input and output matrices on the screen. If you put a high-dimensional matrix as input to test the time complexity, countless data will fill the screen. So you can add program annotation to shield some "printf" code.
