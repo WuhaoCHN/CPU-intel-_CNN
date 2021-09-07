@@ -26,7 +26,7 @@ float** fused_conv(float** feature, int& row_i, int& col_i, float** filter, int 
 	}
 	//convolution-relu-pooling fused function
 	startTime = omp_get_wtime();
-
+#pragma omp parallel for collapse(2)
 	for (int m = 0; m < row_t; ++m)
 		for (int n = 0; n < col_t; ++n)
 		{
